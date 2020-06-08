@@ -1,0 +1,20 @@
+{
+    "name": "nickpeirson/bga-stubs",
+    "description": "Stubbed classes for BGA Studio code completion",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nick Peirson",
+            "email": "nickpeirson@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NickPeirson\\BGAStubs\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "v3.0.0-rc"
+    }
+}
